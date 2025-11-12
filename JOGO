@@ -1,0 +1,34 @@
+#Colocar título e descrever o jogo.
+print("JOGO DE PERGUNTAS LUDICAS yupppp yeiiii")
+
+print("O jogo será trabalhado na forma de utilizar dados externos, para desenvolver respostas e novas perguntas, utilizando a idéia de INPUT")
+#Pensar em um tema...
+nome = input("Qual é seu nome?")
+print("Olá" ,nome, "Mestre(a) dos labubus vamos testar seu conhecimento sobre os grandes labubus")
+
+ pontos = 0
+
+#pergunta1
+labubu = input("Qual foi o labubu mais raro da historia?")
+if labubu == "labubu anjo" or labubu == "labubu anjo gigante":
+     print("Parabéns", nome,",você esta aprendendo com os labubus ancestrais")
+     pontos += 1
+else: 
+     print("Que pena", nome, "você errou você ainda tem muito para aprender sobre labubu")
+
+#pergunta2
+criação = input("Em que ano o conceito labubu foi criado? ")
+if criação == "2015":
+     print("Parabéns", nome,"Nossa Parabéns você conseguiu chegar na metade da provação dos grandes labubus")
+     pontos += 1
+else: 
+     print("Que pena", nome, "você errou você ainda tem muito para aprender sobre labubu")
+
+#pergunta3
+variações = input("Quantas variações de labubus existem?")
+if variações == "mais de 300" or variações == "300"
+  print("Parabéns", nome,",você esta aprendendo com os labubus ancestrais")
+     pontos += 1
+else: 
+     print("Que pena", nome, "você errou você ainda tem muito para aprender sobre labubu")
+
